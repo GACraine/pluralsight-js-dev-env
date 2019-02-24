@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 95702217,
+      "firstName": "Claudia",
+      "lastName": "Wolff",
+      "email": "Alivia_Stroman91@gmail.com"
+    },
+    {
+      "id": 15466290,
+      "firstName": "Abdiel",
+      "lastName": "Cruickshank",
+      "email": "Caitlyn.King@yahoo.com"
+    },
+    {
+      "id": 88338348,
+      "firstName": "Royal",
+      "lastName": "Cummings",
+      "email": "Ethyl_Effertz97@hotmail.com"
+    },
+    {
+      "id": 86199537,
+      "firstName": "Lexus",
+      "lastName": "Schuster",
+      "email": "Marcelo_Halvorson38@hotmail.com"
+    }
+  ]
+}
