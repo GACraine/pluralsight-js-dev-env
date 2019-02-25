@@ -3,8 +3,10 @@
 //   return inDevelopment ? 'http://localhost:3001/' : '/';
 // }
 
+//TODO remove heroku
+
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://mysterious-dawn-16770.herokuapp.com/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : '/';
 }
 
 function getQueryStringParameterByName(name, url) {
