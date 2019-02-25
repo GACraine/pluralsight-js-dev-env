@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+ <%  if(htmlWebpackPlugin.options.trackJSToken) { %>
+ <!-- BEGIN TRACKS-->
+ <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+ <script>window.TrackJS && TrackJS.install({ token: "0ad872f0363c43ad8bb495ad6d2291e6" }); </script>
+ <!-- END TRACKS-->
+<% } %>
+ <meta charset="UTF-8">
 </head>
 <body>
   <h1>Users</h1>
