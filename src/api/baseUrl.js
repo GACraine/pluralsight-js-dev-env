@@ -6,7 +6,7 @@
 //TODO remove heroku
 
 export default function getBaseUrl() {
-  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : '/';
+  return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://boiling-woodland-81640.herokuapp.com/';
 }
 
 function getQueryStringParameterByName(name, url) {
